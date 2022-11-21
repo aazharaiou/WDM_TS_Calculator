@@ -11,7 +11,7 @@ console.log(chalk.greenBright(banner));
 let developer: string = await art.font('Developed_by:_Azhar_ul_Islam', 'rusted').completed()
 console.log(chalk.cyan(developer));
 
-console.log(chalk.bgCyanBright.black('Welcome to the terminal calculator developed using TypeScript. Please follow the guidelines provided by the program as below. '));
+console.log(chalk.bgCyanBright.black('Welcome to the terminal calculator developed using TypeScript. \nHistory is available after each calculation. \nPlease follow the guidelines provided by the program as below. '));
 let history : string[] = [];
 while(true) {
     let answers: { operand1: string; operand2: string; operator: "Add" | "Subtract" | "Multiply" | "Divide" };

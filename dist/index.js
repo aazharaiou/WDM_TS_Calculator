@@ -8,7 +8,7 @@ let banner = await art.font('TSCalculator', 'Doom').completed();
 console.log(chalk.greenBright(banner));
 let developer = await art.font('Developed_by:_Azhar_ul_Islam', 'rusted').completed();
 console.log(chalk.cyan(developer));
-console.log(chalk.bgCyanBright.black('Welcome to the terminal calculator developed using TypeScript. Please follow the guidelines provided by the program as below. '));
+console.log(chalk.bgCyanBright.black('Welcome to the terminal calculator developed using TypeScript. \nHistory is available after each calculation. \nPlease follow the guidelines provided by the program as below. '));
 let history = [];
 while (true) {
     let answers;
