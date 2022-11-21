@@ -1,0 +1,23 @@
+{
+  "name": "tscalc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-art": "^2.8.5",
+    "chalk": "^5.1.2",
+    "inquirer": "^9.1.4"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^18.11.9",
+    "nodemon": "^2.0.20"
+  }
+}
