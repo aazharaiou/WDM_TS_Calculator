@@ -19,5 +19,9 @@
     "@types/inquirer": "^9.0.3",
     "@types/node": "^18.11.9",
     "nodemon": "^2.0.20"
+  },
+  "bin":
+  {
+    "tscalc": "dist/index.js"
   }
 }

@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import { createRequire } from "module";
 import inquirer from "inquirer";
 const require = createRequire(import.meta.url);
@@ -5,6 +6,8 @@ const art = require('ascii-art');
 import chalk from 'chalk';
 let banner = await art.font('TSCalculator', 'Doom').completed();
 console.log(chalk.greenBright(banner));
+let developer = await art.font('Developed_by:_Azhar_ul_Islam', 'rusted').completed();
+console.log(chalk.cyan(developer));
 console.log(chalk.bgCyanBright.black('Welcome to the terminal calculator developed using TypeScript. Please follow the guidelines provided by the program as below. '));
 let history = [];
 while (true) {

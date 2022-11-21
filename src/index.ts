@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import {createRequire} from "module";
 import inquirer from "inquirer";
 
@@ -7,6 +8,9 @@ import chalk from 'chalk';
 
 let banner : string = await art.font('TSCalculator', 'Doom').completed();
 console.log(chalk.greenBright(banner));
+let developer: string = await art.font('Developed_by:_Azhar_ul_Islam', 'rusted').completed()
+console.log(chalk.cyan(developer));
+
 console.log(chalk.bgCyanBright.black('Welcome to the terminal calculator developed using TypeScript. Please follow the guidelines provided by the program as below. '));
 let history : string[] = [];
 while(true) {
